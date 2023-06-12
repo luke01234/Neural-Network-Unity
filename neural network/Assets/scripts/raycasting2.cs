@@ -10,7 +10,7 @@ using UnityEngine;
 public class raycasting2 : MonoBehaviour
 {
   public Transform rayStart; //transform for raystart location
-  public float distance; //distance flaot
+  public float distance; //distance float
   
   Color leftColor, rightColor, middleColor; //colors for rays
   
@@ -18,7 +18,7 @@ public class raycasting2 : MonoBehaviour
   
   private Vector3 right, middle, left; //vectors for each ray
   
-  public float rightSensor; //florats for each sensor
+  public float rightSensor; //floats for each sensor
   public float middleSensor;
   public float leftSensor;
   
